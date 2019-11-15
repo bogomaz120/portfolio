@@ -1,0 +1,170 @@
+.navbar {
+    background: #F97300;
+    }
+    .nav-link , .navbar-brand{
+        color: #f4f4f4;
+        cursor: progress;
+      }
+      .nav-link { margin-right: 1em !important}
+      .nav-link:hover {
+          background: #f4f4f4;
+          color: #f97300;
+      }
+.navbar-collapse {justify-content: flex-end;}
+.navbar-toggler { background:#fff !important;}
+/*header style*/
+.header{
+    position: relative;
+    background-image: url('../images/headerback1.jpg');
+  
+    background-size: cover;
+    background-position: center;
+  }
+  .overlay{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(244, 244, 244, 0.79);
+  }
+  .description {position: absolute;
+    top: 30%;
+    margin: auto;
+padding:  2em !important
+}
+.description h1 {
+    color: #F97300;
+}
+.description p {
+    color: #666;
+    font-size: 1.25rem;
+    width: 60%;
+    line-height: 1.5;
+}
+.description button {
+    background: #F97300;
+    border: 1px; solid
+}
+.about h1 {
+    color: #F97300;
+    margin: 2em;
+}
+.about {
+    margin: 2rem 0;
+    padding: 1rem;
+    position: relative;
+  }
+  .about img{
+      border-radius: 50% ;
+  }
+  .about span{
+      color: #666;
+      display: block;
+      position: absolute;
+      left: 10rem;
+      margin-top: .5rem;
+  }
+  .about .about-me p {
+      padding: 2rem;
+      border-left: .25rem solid #10828C;
+  }
+  .about h3 {
+      color: #F97300;
+
+  }
+.portfolio h1 {
+    color: #F97300;
+    margin: 2em;
+
+}
+.portfolio img {
+    height: 40rem;
+    width: 100%;
+    margin: 1rem;
+}
+class="img-fluid"
+.portfolio img {
+  height: 20rem;
+  width: 100%;
+  margin: 1rem;
+}
+.portfolio {
+  margin: 2rem 0;
+  padding: 1rem;
+  position: relative;
+}
+.blog h1 {
+    color: #F97300;
+    margin: 2em;
+}
+.blog .card {
+box-shadow: 0 0 16px #ccc;
+}
+.blog img {
+    width: 100%;
+    height: 10rem;
+}
+.blog .card .card-body h4 {
+    color: #F97300;
+}
+.team h1 {
+    color: #F97300;
+    margin: 2em;
+}
+.team .item{
+    position: relative;
+    overflow: hidden;
+  }
+  .team .des {
+      background: #F97300;
+      color: #fff;
+      text-align: center;
+      border-top-right-radius: 93;
+      transition: 3s ease-in-out;
+      position: absolute;
+      width: 88%;
+      bottom: 1.5rem;
+  }
+  .team .item:hover .des{
+    height: 100%;
+    background:#f973007d;
+    position: absolute;
+    width: 89%;
+    padding: 5em;
+    top: 0;
+    border-bottom-left-radius: 0;
+   }
+  .contactform h4 {
+    color: #F97300;
+}
+.contactform {
+    padding: 2rem 1px;
+    border-top: .10rem solid #F97300;
+}
+.contactform button {
+     background: #F97300;
+     border: 1px; solid
+  }
+  .contactform{
+    margin: 6em 0;
+    position: relative;  
+   }
+   
+   .contactform .right{
+    max-width: 600px;
+   }
+   .contactform .right .btn-secondary{
+    background:  #F97300;
+    color: #fff;
+    border:0;
+   }
+   .contactform .right .form-control::placeholder{
+    color: #888;
+    font-size: 16px;
+   }
+   .button [type="button"] {
+    background: #F97300;
+    border: 1px #F97300;
+    color: #fff;
+  }
